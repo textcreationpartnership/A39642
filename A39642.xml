@@ -1,0 +1,1327 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A correct tide table, shewing the true time of the high-waters at London-Bridg, to every day in the year, 1684 by J.F. M.R.</title>
+            <author>Flamsteed, John, 1646-1719.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1684</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A39642</idno>
+            <idno type="STC">Wing F1134A</idno>
+            <idno type="STC">ESTC R42025</idno>
+            <idno type="EEBO-CITATION">23238806</idno>
+            <idno type="OCLC">ocm 23238806</idno>
+            <idno type="VID">109508</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A39642)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 109508)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1700:45)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A correct tide table, shewing the true time of the high-waters at London-Bridg, to every day in the year, 1684 by J.F. M.R.</title>
+                  <author>Flamsteed, John, 1646-1719.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.)   </extent>
+               <publicationStmt>
+                  <publisher>Printed for J. Baker ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1683]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Date of publication from Wing.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tides --  England --  London --  Tables.</term>
+               <term>Broadsides --  England --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="tide_table">
+            <pb facs="tcp:109508:1" rendition="simple:additions"/>
+            <head>A Correct TIDE TABLE, ſhewing the true time of the <hi>High-Waters</hi> at <hi>London-Bridg,</hi> to every Day in the Year, 1684. By <hi>J. F.</hi> M. R.</head>
+            <p>
+               <table>
+                  <row>
+                     <cell role="label"> </cell>
+                     <cell role="label">
+                        <hi>January.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>February.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>March.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>April.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>May.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>June.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>July.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>Auguſt.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>Septem.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>October.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>Novemb.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>Decem.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell role="label">D</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                     <cell role="label">H. M.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">1</cell>
+                     <cell>M</cell>
+                     <cell>8 53</cell>
+                     <cell>10 46</cell>
+                     <cell>10 30</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>0 ☉ 44</cell>
+                     <cell>1 01</cell>
+                     <cell>2 26</cell>
+                     <cell>3 30</cell>
+                     <cell>3 55</cell>
+                     <cell>5 09</cell>
+                     <cell>5 30</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>9 29</cell>
+                     <cell>11 22</cell>
+                     <cell>11 04</cell>
+                     <cell>0 09</cell>
+                     <cell>0 19</cell>
+                     <cell>1 09</cell>
+                     <cell>1 29</cell>
+                     <cell>2 47</cell>
+                     <cell>3 48</cell>
+                     <cell>4 14</cell>
+                     <cell>5 39</cell>
+                     <cell>5 53</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">2</cell>
+                     <cell>M</cell>
+                     <cell>10 03</cell>
+                     <cell>11 55</cell>
+                     <cell>11 ☉ 37</cell>
+                     <cell>0 33</cell>
+                     <cell>0 43</cell>
+                     <cell>1 34</cell>
+                     <cell>1 56</cell>
+                     <cell>3 07</cell>
+                     <cell>4 05</cell>
+                     <cell>4 35</cell>
+                     <cell>6 ☉ 01</cell>
+                     <cell>6 17</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>10 38</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>0 58</cell>
+                     <cell>1 06</cell>
+                     <cell>1 58</cell>
+                     <cell>2 20</cell>
+                     <cell>3 25</cell>
+                     <cell>4 23</cell>
+                     <cell>4 56</cell>
+                     <cell>6 28</cell>
+                     <cell>6 41</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">3</cell>
+                     <cell>M</cell>
+                     <cell>11 14</cell>
+                     <cell>0 ☉ 27</cell>
+                     <cell>0 08</cell>
+                     <cell>1 21</cell>
+                     <cell>1 28</cell>
+                     <cell>2 20</cell>
+                     <cell>2 42</cell>
+                     <cell>3 ☉ 43</cell>
+                     <cell>4 42</cell>
+                     <cell>5 20</cell>
+                     <cell>6 58</cell>
+                     <cell>7 07</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>11 49</cell>
+                     <cell>0 57</cell>
+                     <cell>0 36</cell>
+                     <cell>1 42</cell>
+                     <cell>1 48</cell>
+                     <cell>2 41</cell>
+                     <cell>3 03</cell>
+                     <cell>4 00</cell>
+                     <cell>5 03</cell>
+                     <cell>5 49</cell>
+                     <cell>7 28</cell>
+                     <cell>7 32</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">4</cell>
+                     <cell>M</cell>
+                     <cell> </cell>
+                     <cell>1 24</cell>
+                     <cell>1 02</cell>
+                     <cell>2 01</cell>
+                     <cell>2 ☉ 09</cell>
+                     <cell>3 01</cell>
+                     <cell>3 22</cell>
+                     <cell>4 17</cell>
+                     <cell>5 26</cell>
+                     <cell>6 15</cell>
+                     <cell>7 57</cell>
+                     <cell>7 57</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>0 24</cell>
+                     <cell>1 48</cell>
+                     <cell>1 26</cell>
+                     <cell>2 18</cell>
+                     <cell>2 27</cell>
+                     <cell>3 20</cell>
+                     <cell>3 40</cell>
+                     <cell>4 35</cell>
+                     <cell>5 51</cell>
+                     <cell>6 46</cell>
+                     <cell>8 29</cell>
+                     <cell>8 24</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">5</cell>
+                     <cell>M</cell>
+                     <cell>0 55</cell>
+                     <cell>2 11</cell>
+                     <cell>1 47</cell>
+                     <cell>2 35</cell>
+                     <cell>2 45</cell>
+                     <cell>3 38</cell>
+                     <cell>3 58</cell>
+                     <cell>4 53</cell>
+                     <cell>6 19</cell>
+                     <cell>7 ☉ 18</cell>
+                     <cell>8 59</cell>
+                     <cell>8 50</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>1 25</cell>
+                     <cell>2 31</cell>
+                     <cell>2 08</cell>
+                     <cell>2 52</cell>
+                     <cell>3 03</cell>
+                     <cell>3 55</cell>
+                     <cell>4 15</cell>
+                     <cell>5 13</cell>
+                     <cell>6 49</cell>
+                     <cell>7 51</cell>
+                     <cell>9 29</cell>
+                     <cell>9 17</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">6</cell>
+                     <cell>M</cell>
+                     <cell>1 ☉ 51</cell>
+                     <cell>2 49</cell>
+                     <cell>2 26</cell>
+                     <cell>3 ☉ 07</cell>
+                     <cell>3 20</cell>
+                     <cell>4 13</cell>
+                     <cell>4 ☉ 33</cell>
+                     <cell>5 35</cell>
+                     <cell>7 21</cell>
+                     <cell>8 26</cell>
+                     <cell>9 57</cell>
+                     <cell>9 44</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>2 14</cell>
+                     <cell>3 06</cell>
+                     <cell>2 42</cell>
+                     <cell>3 21</cell>
+                     <cell>3 36</cell>
+                     <cell>4 32</cell>
+                     <cell>4 51</cell>
+                     <cell>5 59</cell>
+                     <cell>7 56</cell>
+                     <cell>9 01</cell>
+                     <cell>10 24</cell>
+                     <cell>10 12</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">7</cell>
+                     <cell>M</cell>
+                     <cell>2 36</cell>
+                     <cell>3 21</cell>
+                     <cell>2 58</cell>
+                     <cell>3 36</cell>
+                     <cell>3 52</cell>
+                     <cell>4 50</cell>
+                     <cell>5 12</cell>
+                     <cell>6 25</cell>
+                     <cell>8 ☉ 33</cell>
+                     <cell>9 35</cell>
+                     <cell>10 53</cell>
+                     <cell>10 ☉ 37</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>2 57</cell>
+                     <cell>3 34</cell>
+                     <cell>3 13</cell>
+                     <cell>3 51</cell>
+                     <cell>4 10</cell>
+                     <cell>5 11</cell>
+                     <cell>5 34</cell>
+                     <cell>6 55</cell>
+                     <cell>9 11</cell>
+                     <cell>10 08</cell>
+                     <cell>11 20</cell>
+                     <cell>11 06</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">8</cell>
+                     <cell>M</cell>
+                     <cell>3 14</cell>
+                     <cell>3 48</cell>
+                     <cell>3 26</cell>
+                     <cell>4 07</cell>
+                     <cell>4 27</cell>
+                     <cell>5 ☉ 36</cell>
+                     <cell>5 56</cell>
+                     <cell>7 26</cell>
+                     <cell>9 48</cell>
+                     <cell>10 40</cell>
+                     <cell>11 45</cell>
+                     <cell>11 33</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>3 31</cell>
+                     <cell>4 02</cell>
+                     <cell>3 40</cell>
+                     <cell>4 23</cell>
+                     <cell>4 46</cell>
+                     <cell>5 57</cell>
+                     <cell>6 20</cell>
+                     <cell>8 00</cell>
+                     <cell>10 23</cell>
+                     <cell>11 11</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">9</cell>
+                     <cell>M</cell>
+                     <cell>3 46</cell>
+                     <cell>4 16</cell>
+                     <cell>3 ☉ 53</cell>
+                     <cell>4 40</cell>
+                     <cell>5 07</cell>
+                     <cell>6 23</cell>
+                     <cell>6 47</cell>
+                     <cell>8 36</cell>
+                     <cell>11 00</cell>
+                     <cell>11 40</cell>
+                     <cell>0 ☉ 10</cell>
+                     <cell>0 01</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>4 01</cell>
+                     <cell>4 30</cell>
+                     <cell>4 08</cell>
+                     <cell>4 58</cell>
+                     <cell>5 31</cell>
+                     <cell>6 50</cell>
+                     <cell>7 15</cell>
+                     <cell>9 14</cell>
+                     <cell>11 33</cell>
+                     <cell> </cell>
+                     <cell>0 33</cell>
+                     <cell>0 27</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">10</cell>
+                     <cell>M</cell>
+                     <cell>4 16</cell>
+                     <cell>4 ☉ 44</cell>
+                     <cell>4 22</cell>
+                     <cell>5 19</cell>
+                     <cell>5 54</cell>
+                     <cell>7 19</cell>
+                     <cell>7 45</cell>
+                     <cell>9 ☉ 51</cell>
+                     <cell> </cell>
+                     <cell>0 07</cell>
+                     <cell>0 58</cell>
+                     <cell>0 53</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>4 31</cell>
+                     <cell>5 00</cell>
+                     <cell>4 38</cell>
+                     <cell>5 42</cell>
+                     <cell>6 21</cell>
+                     <cell>7 48</cell>
+                     <cell>8 18</cell>
+                     <cell>10 30</cell>
+                     <cell>0 05</cell>
+                     <cell>0 33</cell>
+                     <cell>1 20</cell>
+                     <cell>1 19</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">11</cell>
+                     <cell>M</cell>
+                     <cell>4 46</cell>
+                     <cell>5 17</cell>
+                     <cell>4 54</cell>
+                     <cell>6 08</cell>
+                     <cell>6 ☉ 49</cell>
+                     <cell>8 19</cell>
+                     <cell>8 52</cell>
+                     <cell>11 07</cell>
+                     <cell>0 34</cell>
+                     <cell>0 57</cell>
+                     <cell>1 41</cell>
+                     <cell>1 43</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>5 01</cell>
+                     <cell>5 35</cell>
+                     <cell>5 12</cell>
+                     <cell>6 36</cell>
+                     <cell>7 19</cell>
+                     <cell>8 53</cell>
+                     <cell>9 27</cell>
+                     <cell>11 43</cell>
+                     <cell>1 01</cell>
+                     <cell>1 19</cell>
+                     <cell>2 02</cell>
+                     <cell>2 06</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">12</cell>
+                     <cell>M</cell>
+                     <cell>5 18</cell>
+                     <cell>5 55</cell>
+                     <cell>5 33</cell>
+                     <cell>7 06</cell>
+                     <cell>7 50</cell>
+                     <cell>9 27</cell>
+                     <cell>10 04</cell>
+                     <cell> </cell>
+                     <cell>1 25</cell>
+                     <cell>1 ☉ 39</cell>
+                     <cell>2 22</cell>
+                     <cell>2 27</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>5 36</cell>
+                     <cell>6 18</cell>
+                     <cell>5 54</cell>
+                     <cell>7 38</cell>
+                     <cell>8 23</cell>
+                     <cell>10 00</cell>
+                     <cell>10 42</cell>
+                     <cell>0 18</cell>
+                     <cell>1 46</cell>
+                     <cell>1 59</cell>
+                     <cell>2 40</cell>
+                     <cell>2 47</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">13</cell>
+                     <cell>M</cell>
+                     <cell>5 ☉ 54</cell>
+                     <cell>6 42</cell>
+                     <cell>6 19</cell>
+                     <cell>8 ☉ 11</cell>
+                     <cell>8 57</cell>
+                     <cell>10 35</cell>
+                     <cell>11 ☉ 19</cell>
+                     <cell>0 49</cell>
+                     <cell>2 07</cell>
+                     <cell>2 16</cell>
+                     <cell>2 57</cell>
+                     <cell>3 06</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>6 14</cell>
+                     <cell>7 10</cell>
+                     <cell>6 47</cell>
+                     <cell>8 47</cell>
+                     <cell>9 30</cell>
+                     <cell>11 11</cell>
+                     <cell> </cell>
+                     <cell>1 18</cell>
+                     <cell>2 26</cell>
+                     <cell>2 33</cell>
+                     <cell>3 13</cell>
+                     <cell>3 23</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">14</cell>
+                     <cell>M</cell>
+                     <cell>6 35</cell>
+                     <cell>7 38</cell>
+                     <cell>7 18</cell>
+                     <cell>9 23</cell>
+                     <cell>10 06</cell>
+                     <cell>11 47</cell>
+                     <cell>0 06</cell>
+                     <cell>1 43</cell>
+                     <cell>2 ☉ 43</cell>
+                     <cell>2 49</cell>
+                     <cell>3 29</cell>
+                     <cell>3 ☉ 41</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>6 59</cell>
+                     <cell>8 09</cell>
+                     <cell>7 50</cell>
+                     <cell>9 59</cell>
+                     <cell>10 39</cell>
+                     <cell> </cell>
+                     <cell>0 31</cell>
+                     <cell>2 07</cell>
+                     <cell>2 58</cell>
+                     <cell>3 05</cell>
+                     <cell>3 46</cell>
+                     <cell>3 57</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">15</cell>
+                     <cell>M</cell>
+                     <cell>7 23</cell>
+                     <cell>8 43</cell>
+                     <cell>8 25</cell>
+                     <cell>10 35</cell>
+                     <cell>11 14</cell>
+                     <cell>0 ☉ 21</cell>
+                     <cell>1 04</cell>
+                     <cell>2 27</cell>
+                     <cell>3 12</cell>
+                     <cell>3 20</cell>
+                     <cell>4 03</cell>
+                     <cell>4 14</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>7 50</cell>
+                     <cell>9 18</cell>
+                     <cell>9 02</cell>
+                     <cell>11 11</cell>
+                     <cell>11 47</cell>
+                     <cell>0 54</cell>
+                     <cell>1 34</cell>
+                     <cell>2 46</cell>
+                     <cell>3 26</cell>
+                     <cell>3 35</cell>
+                     <cell>4 19</cell>
+                     <cell>4 32</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">16</cell>
+                     <cell>M</cell>
+                     <cell>8 20</cell>
+                     <cell>9 56</cell>
+                     <cell>9 ☉ 39</cell>
+                     <cell>11 45</cell>
+                     <cell> </cell>
+                     <cell>1 24</cell>
+                     <cell>2 01</cell>
+                     <cell>3 03</cell>
+                     <cell>3 40</cell>
+                     <cell>3 50</cell>
+                     <cell>4 ☉ 38</cell>
+                     <cell>4 50</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>8 51</cell>
+                     <cell>10 34</cell>
+                     <cell>10 17</cell>
+                     <cell> </cell>
+                     <cell>0 20</cell>
+                     <cell>1 52</cell>
+                     <cell>2 24</cell>
+                     <cell>3 18</cell>
+                     <cell>3 54</cell>
+                     <cell>4 05</cell>
+                     <cell>4 56</cell>
+                     <cell>5 10</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">17</cell>
+                     <cell>M</cell>
+                     <cell>9 22</cell>
+                     <cell>11 ☉ 11</cell>
+                     <cell>10 54</cell>
+                     <cell>0 18</cell>
+                     <cell>0 51</cell>
+                     <cell>2 19</cell>
+                     <cell>2 45</cell>
+                     <cell>3 ☉ 33</cell>
+                     <cell>4 08</cell>
+                     <cell>4 21</cell>
+                     <cell>5 18</cell>
+                     <cell>5 31</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>9 54</cell>
+                     <cell>11 48</cell>
+                     <cell>11 31</cell>
+                     <cell>0 48</cell>
+                     <cell>1 21</cell>
+                     <cell>2 43</cell>
+                     <cell>3 04</cell>
+                     <cell>3 47</cell>
+                     <cell>4 23</cell>
+                     <cell>4 38</cell>
+                     <cell>5 40</cell>
+                     <cell>5 53</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">18</cell>
+                     <cell>M</cell>
+                     <cell>10 29</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>1 17</cell>
+                     <cell>1 ☉ 48</cell>
+                     <cell>3 04</cell>
+                     <cell>3 22</cell>
+                     <cell>4 00</cell>
+                     <cell>4 39</cell>
+                     <cell>4 56</cell>
+                     <cell>6 05</cell>
+                     <cell>6 17</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>11 03</cell>
+                     <cell>0 24</cell>
+                     <cell>0 05</cell>
+                     <cell>1 44</cell>
+                     <cell>2 14</cell>
+                     <cell>3 23</cell>
+                     <cell>3 39</cell>
+                     <cell>4 14</cell>
+                     <cell>4 54</cell>
+                     <cell>5 16</cell>
+                     <cell>6 30</cell>
+                     <cell>6 42</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">19</cell>
+                     <cell>M</cell>
+                     <cell>11 40</cell>
+                     <cell>0 57</cell>
+                     <cell>0 40</cell>
+                     <cell>2 10</cell>
+                     <cell>2 39</cell>
+                     <cell>3 42</cell>
+                     <cell>3 54</cell>
+                     <cell>4 28</cell>
+                     <cell>5 13</cell>
+                     <cell>5 ☉ 38</cell>
+                     <cell>6 58</cell>
+                     <cell>7 09</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell> </cell>
+                     <cell>1 27</cell>
+                     <cell>1 10</cell>
+                     <cell>2 34</cell>
+                     <cell>3 01</cell>
+                     <cell>4 00</cell>
+                     <cell>4 10</cell>
+                     <cell>4 42</cell>
+                     <cell>5 34</cell>
+                     <cell>6 03</cell>
+                     <cell>7 26</cell>
+                     <cell>7 36</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">20</cell>
+                     <cell>M</cell>
+                     <cell>0 ☉ 14</cell>
+                     <cell>1 55</cell>
+                     <cell>1 38</cell>
+                     <cell>2 ☉ 56</cell>
+                     <cell>3 21</cell>
+                     <cell>4 17</cell>
+                     <cell>4 ☉ 25</cell>
+                     <cell>4 58</cell>
+                     <cell>5 55</cell>
+                     <cell>6 29</cell>
+                     <cell>7 56</cell>
+                     <cell>8 07</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>0 48</cell>
+                     <cell>2 20</cell>
+                     <cell>2 04</cell>
+                     <cell>3 16</cell>
+                     <cell>3 41</cell>
+                     <cell>4 34</cell>
+                     <cell>4 39</cell>
+                     <cell>5 15</cell>
+                     <cell>0 20</cell>
+                     <cell>6 58</cell>
+                     <cell>8 27</cell>
+                     <cell>8 39</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">21</cell>
+                     <cell>M</cell>
+                     <cell>1 19</cell>
+                     <cell>2 42</cell>
+                     <cell>2 27</cell>
+                     <cell>3 35</cell>
+                     <cell>4 00</cell>
+                     <cell>4 52</cell>
+                     <cell>4 54</cell>
+                     <cell>5 34</cell>
+                     <cell>6 ☉ 47</cell>
+                     <cell>7 30</cell>
+                     <cell>8 59</cell>
+                     <cell>9 ☉ 13</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>1 47</cell>
+                     <cell>3 03</cell>
+                     <cell>2 49</cell>
+                     <cell>3 54</cell>
+                     <cell>4 19</cell>
+                     <cell>5 10</cell>
+                     <cell>5 11</cell>
+                     <cell>5 53</cell>
+                     <cell>7 16</cell>
+                     <cell>8 01</cell>
+                     <cell>9 32</cell>
+                     <cell>9 47</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">22</cell>
+                     <cell>M</cell>
+                     <cell>2 14</cell>
+                     <cell>3 22</cell>
+                     <cell>3 09</cell>
+                     <cell>4 14</cell>
+                     <cell>4 39</cell>
+                     <cell>5 ☉ 31</cell>
+                     <cell>5 29</cell>
+                     <cell>6 16</cell>
+                     <cell>7 48</cell>
+                     <cell>8 35</cell>
+                     <cell>10 06</cell>
+                     <cell>10 23</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>2 37</cell>
+                     <cell>3 40</cell>
+                     <cell>3 28</cell>
+                     <cell>4 33</cell>
+                     <cell>4 59</cell>
+                     <cell>5 49</cell>
+                     <cell>5 46</cell>
+                     <cell>6 40</cell>
+                     <cell>8 23</cell>
+                     <cell>9 10</cell>
+                     <cell>10 39</cell>
+                     <cell>11 01</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">23</cell>
+                     <cell>M</cell>
+                     <cell>3 00</cell>
+                     <cell>3 57</cell>
+                     <cell>3 ☉ 46</cell>
+                     <cell>4 54</cell>
+                     <cell>5 22</cell>
+                     <cell>6 10</cell>
+                     <cell>6 07</cell>
+                     <cell>7 08</cell>
+                     <cell>8 59</cell>
+                     <cell>9 45</cell>
+                     <cell>11 ☉ 14</cell>
+                     <cell>11 37</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>3 19</cell>
+                     <cell>4 15</cell>
+                     <cell>4 04</cell>
+                     <cell>5 18</cell>
+                     <cell>5 42</cell>
+                     <cell>6 31</cell>
+                     <cell>6 28</cell>
+                     <cell>7 35</cell>
+                     <cell>9 35</cell>
+                     <cell>10 20</cell>
+                     <cell>11 48</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">24</cell>
+                     <cell>M</cell>
+                     <cell>3 38</cell>
+                     <cell>4 ☉ 34</cell>
+                     <cell>4 23</cell>
+                     <cell>5 43</cell>
+                     <cell>6 07</cell>
+                     <cell>6 54</cell>
+                     <cell>6 50</cell>
+                     <cell>8 ☉ 07</cell>
+                     <cell>10 11</cell>
+                     <cell>10 53</cell>
+                     <cell> </cell>
+                     <cell>0 14</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>3 54</cell>
+                     <cell>4 53</cell>
+                     <cell>4 43</cell>
+                     <cell>6 10</cell>
+                     <cell>6 32</cell>
+                     <cell>7 18</cell>
+                     <cell>7 14</cell>
+                     <cell>8 40</cell>
+                     <cell>10 47</cell>
+                     <cell>11 27</cell>
+                     <cell>0 21</cell>
+                     <cell>0 49</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">25</cell>
+                     <cell>M</cell>
+                     <cell>4 13</cell>
+                     <cell>5 14</cell>
+                     <cell>5 05</cell>
+                     <cell>6 38</cell>
+                     <cell>6 ☉ 57</cell>
+                     <cell>7 42</cell>
+                     <cell>7 40</cell>
+                     <cell>9 16</cell>
+                     <cell>11 23</cell>
+                     <cell> </cell>
+                     <cell>0 53</cell>
+                     <cell>1 21</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>4 31</cell>
+                     <cell>5 38</cell>
+                     <cell>5 28</cell>
+                     <cell>7 07</cell>
+                     <cell>7 22</cell>
+                     <cell>8 07</cell>
+                     <cell>8 09</cell>
+                     <cell>9 53</cell>
+                     <cell>11 57</cell>
+                     <cell>0 00</cell>
+                     <cell>1 23</cell>
+                     <cell>2 51</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">26</cell>
+                     <cell>M</cell>
+                     <cell>4 48</cell>
+                     <cell>6 04</cell>
+                     <cell>5 54</cell>
+                     <cell>7 36</cell>
+                     <cell>7 49</cell>
+                     <cell>8 34</cell>
+                     <cell>8 39</cell>
+                     <cell>10 30</cell>
+                     <cell> </cell>
+                     <cell>0 ☉ 30</cell>
+                     <cell>1 52</cell>
+                     <cell>2 19</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>5 09</cell>
+                     <cell>6 31</cell>
+                     <cell>6 22</cell>
+                     <cell>8 07</cell>
+                     <cell>8 16</cell>
+                     <cell>9 00</cell>
+                     <cell>9 11</cell>
+                     <cell>11 06</cell>
+                     <cell>0 30</cell>
+                     <cell>1 00</cell>
+                     <cell>2 19</cell>
+                     <cell>2 44</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">27</cell>
+                     <cell>M</cell>
+                     <cell>5 ☉ 31</cell>
+                     <cell>7 02</cell>
+                     <cell>6 53</cell>
+                     <cell>8 ☉ 36</cell>
+                     <cell>8 43</cell>
+                     <cell>9 28</cell>
+                     <cell>9 ☉ 43</cell>
+                     <cell>11 42</cell>
+                     <cell>1 00</cell>
+                     <cell>1 28</cell>
+                     <cell>2 43</cell>
+                     <cell>3 06</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>5 54</cell>
+                     <cell>7 33</cell>
+                     <cell>7 24</cell>
+                     <cell>9 07</cell>
+                     <cell>9 11</cell>
+                     <cell>9 58</cell>
+                     <cell>10 17</cell>
+                     <cell> </cell>
+                     <cell>1 27</cell>
+                     <cell>1 54</cell>
+                     <cell>3 06</cell>
+                     <cell>3 25</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">28</cell>
+                     <cell>M</cell>
+                     <cell>6 20</cell>
+                     <cell>8 08</cell>
+                     <cell>7 58</cell>
+                     <cell>9 36</cell>
+                     <cell>9 39</cell>
+                     <cell>10 29</cell>
+                     <cell>10 50</cell>
+                     <cell>0 17</cell>
+                     <cell>1 ☉ 53</cell>
+                     <cell>2 18</cell>
+                     <cell>3 26</cell>
+                     <cell>3 ☉ 44</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>6 47</cell>
+                     <cell>8 43</cell>
+                     <cell>8 33</cell>
+                     <cell>10 06</cell>
+                     <cell>10 07</cell>
+                     <cell>11 00</cell>
+                     <cell>11 27</cell>
+                     <cell>0 49</cell>
+                     <cell>2 16</cell>
+                     <cell>2 42</cell>
+                     <cell>3 47</cell>
+                     <cell>4 01</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">29</cell>
+                     <cell>M</cell>
+                     <cell>7 16</cell>
+                     <cell>9 19</cell>
+                     <cell>9 05</cell>
+                     <cell>10 34</cell>
+                     <cell>10 35</cell>
+                     <cell>11 ☉ 30</cell>
+                     <cell> </cell>
+                     <cell>1 18</cell>
+                     <cell>2 39</cell>
+                     <cell>3 04</cell>
+                     <cell>4 07</cell>
+                     <cell>4 17</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>7 47</cell>
+                     <cell>9 55</cell>
+                     <cell>9 39</cell>
+                     <cell>11 02</cell>
+                     <cell>11 02</cell>
+                     <cell> </cell>
+                     <cell>0 01</cell>
+                     <cell>1 45</cell>
+                     <cell>2 59</cell>
+                     <cell>3 24</cell>
+                     <cell>4 27</cell>
+                     <cell>4 35</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">30</cell>
+                     <cell>M</cell>
+                     <cell>8 23</cell>
+                     <cell> </cell>
+                     <cell>10 ☉ 11</cell>
+                     <cell>11 28</cell>
+                     <cell>11 28</cell>
+                     <cell>0 01</cell>
+                     <cell>0 34</cell>
+                     <cell>2 10</cell>
+                     <cell>3 19</cell>
+                     <cell>3 44</cell>
+                     <cell>4 ☉ 47</cell>
+                     <cell>4 52</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>8 57</cell>
+                     <cell> </cell>
+                     <cell>10 43</cell>
+                     <cell>11 54</cell>
+                     <cell>11 53</cell>
+                     <cell>0 30</cell>
+                     <cell>1 06</cell>
+                     <cell>2 33</cell>
+                     <cell>3 37</cell>
+                     <cell>4 04</cell>
+                     <cell>5 08</cell>
+                     <cell>5 10</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">31</cell>
+                     <cell>M</cell>
+                     <cell>9 33</cell>
+                     <cell> </cell>
+                     <cell>11 14</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>1 35</cell>
+                     <cell>2 ☉ 54</cell>
+                     <cell> </cell>
+                     <cell>4 25</cell>
+                     <cell> </cell>
+                     <cell>5 29</cell>
+                  </row>
+                  <row>
+                     <cell>A</cell>
+                     <cell>10 10</cell>
+                     <cell> </cell>
+                     <cell>11 42</cell>
+                     <cell> </cell>
+                     <cell>0 20</cell>
+                     <cell> </cell>
+                     <cell>2 02</cell>
+                     <cell>3 12</cell>
+                     <cell> </cell>
+                     <cell>4 46</cell>
+                     <cell> </cell>
+                     <cell>5 47</cell>
+                  </row>
+               </table>
+            </p>
+            <p>M ſtands for Morning, A Afternoon, ☉ for Sunday.</p>
+            <p>Note, That when by reaſon of long Draughts in Summer, or continual hard Froſts in Winter, the Freſh Waters are low, as alſo when the Wind blows hard at N. or N. W. the Tides may hold up longer than the time ſhewed in the Table.</p>
+            <p>That when the contrary Winds blow, or by reaſon of great Rains, the Freſhes are increaſed, it holds not out ſo long: yet have I very ſeldom found the difference above half an hour.</p>
+            <div type="addendum">
+               <head>The Table may be made to ſerve places under-written, by</head>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">
+                           <hi>ADDING</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>H</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>M.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>For</hi> Tinmouth-Haven, Hartlepool, <hi>and</hi> Amſterdam,</cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                        <cell>
+                           <hi>30</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Breſt.</cell>
+                        <cell>
+                           <hi>1</hi>
+                        </cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Silly.</cell>
+                        <cell>
+                           <hi>1</hi>
+                        </cell>
+                        <cell>
+                           <hi>45</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Bridlingto<g ref="char:cmbAbbrStroke">̄</g>n-Peer <hi>and</hi> Humber.</cell>
+                        <cell>
+                           <hi>2</hi>
+                        </cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Penſans, Weymouth, Hamburg, <hi>and</hi> Hull.</cell>
+                        <cell>
+                           <hi>3</hi>
+                        </cell>
+                        <cell>
+                           <hi>30</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Lanion <hi>and</hi> Foulneſs.</cell>
+                        <cell>
+                           <hi>4</hi>
+                        </cell>
+                        <cell>
+                           <hi>10</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Bridg-water, Landſend <hi>and</hi> Texel.</cell>
+                        <cell>
+                           <hi>4</hi>
+                        </cell>
+                        <cell>
+                           <hi>45</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Portland, Harflew, <hi>and without the</hi> Vlie.</cell>
+                        <cell>
+                           <hi>5</hi>
+                        </cell>
+                        <cell>
+                           <hi>40</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">
+                           <hi>SUBTRACTING</hi>
+                        </cell>
+                        <cell>
+                           <hi>H.</hi>
+                        </cell>
+                        <cell>
+                           <hi>M.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>For</hi> Leith, Maes <hi>and</hi> Goury's Gut.</cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                        <cell>
+                           <hi>15</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Graveſend, Roch<gap reason="illegible: missing" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ſter <hi>and</hi> Rammekins,</cell>
+                        <cell>
+                           <hi>1</hi>
+                        </cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Buoy of the Nore, <hi>and</hi> Fluſhing-Head.</cell>
+                        <cell>
+                           <hi>1</hi>
+                        </cell>
+                        <cell>
+                           <hi>20</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Shooe-Beacon, Portſmouth, Reaſand, Oſtend.</cell>
+                        <cell>
+                           <hi>2</hi>
+                        </cell>
+                        <cell>
+                           <hi>30</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spithead, Harwich, Dover, Calice <hi>and</hi> Dublin.</cell>
+                        <cell>
+                           <hi>3</hi>
+                        </cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Orſordneſs, Gunfleet, Haſtings, Shoreham <hi>and</hi> Diep.</cell>
+                        <cell>
+                           <hi>4</hi>
+                        </cell>
+                        <cell>
+                           <hi>0</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Needles <hi>and</hi> Tarmouth Peer.</cell>
+                        <cell>
+                           <hi>4</hi>
+                        </cell>
+                        <cell>
+                           <hi>40</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>S. Hellens <hi>and</hi> Haver de Grace.</cell>
+                        <cell>
+                           <hi>5</hi>
+                        </cell>
+                        <cell>
+                           <hi>30</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>London</hi>: Printed for <hi>J. Baker,</hi> at the three Pigeons in S. <hi>Paul</hi>'s Church-yard.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
